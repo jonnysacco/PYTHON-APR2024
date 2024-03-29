@@ -56,7 +56,7 @@
         <td>W2D2 </td>
         <td></td>
         <td> Queries  </td>
-        <td>Joining tables, Aggregate functions</td>
+        <td>Queries, Joining tables, Aggregate functions</td>
         <td>
         </td>
     </tr>
