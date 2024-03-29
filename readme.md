@@ -62,14 +62,14 @@
     </tr>
     <tr>
         <td>W2D3 </td>
-        <td></td>
+        <td>4</td>
         <td>MVC (Flask with Database)</td>
         <td></td>
         <td> </td>
     </tr>
     <tr>
         <td> W2D4 </td>
-        <td>4</td>
+        <td></td>
         <td>MVC with relationships</td>
         <td></td>
         <td></td>
