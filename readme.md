@@ -19,7 +19,7 @@
     </tr>
     <tr>
         <td>W1D2 </td>
-        <td></td>
+        <td>2</td>
         <td>OOP</td>
         <td>class, attributes, methods, class methods, association 
         </td>
@@ -33,7 +33,7 @@
     </tr>
         <tr>
         <td>W1D4 </td>
-        <td>2</td>
+        <td>3</td>
         <td>Flask (Controller & View)</td>
         <td> Flask, Routing, Templates, Jinja, Static files</td>
         <td></td>
@@ -47,7 +47,7 @@
     </tr>
     <tr>
         <td>W2D1 </td>
-        <td>3</td>
+        <td>4</td>
         <td>Intro to Database & MySQL</td>
         <td> ERD & Normalization </td>
         <td></td>
@@ -62,7 +62,7 @@
     </tr>
     <tr>
         <td>W2D3 </td>
-        <td>4</td>
+        <td>5</td>
         <td>MVC (Flask with Database)</td>
         <td></td>
         <td> </td>
@@ -76,8 +76,8 @@
     </tr>
     <tr>
         <td> W2D5 </td>
-        <td>5</td>
-        <td>MVC with validation & auth</td>
+        <td>6</td>
+        <td>Validation & Log-reg</td>
         <td></td>
         <td></td>
     </tr>
