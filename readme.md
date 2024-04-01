@@ -14,7 +14,9 @@
         <td>W1D1 </td>
         <td>1</td>
         <td>Python Fundamentals</td>
-        <td>Data types, String, <br> list, conditionals, loops <br> dictionary, functions </td>
+        <td>
+            <a href="./01-fundamentals/f1_basic.py">Boolean, Number, String </a> <br> 
+            <a href="./01-fundamentals/f2_list_loops.py">list, conditionals, loops </a> <br> dictionary, functions </td>
         <td></td>
     </tr>
     <tr>
