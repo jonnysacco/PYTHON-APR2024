@@ -16,7 +16,7 @@
         <td>Python Fundamentals</td>
         <td>
             <a href="./01-fundamentals/f1_basic.py">Boolean, Number, String </a> <br> 
-            <a href="./01-fundamentals/f2_list_loops.py">list, conditionals, loops </a> <br> dictionary, functions </td>
+            <a href="./01-fundamentals/f2_list_loops.py">List, Conditionals, Loops </a> <br> <a href="./01-fundamentals/f3_functions_dict.py">Functions, Dictionary </a> <br> </td>
         <td></td>
     </tr>
     <tr>
