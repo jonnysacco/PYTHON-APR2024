@@ -1,7 +1,7 @@
 // String
 
 message = "   Hello World"
-console.log(message[3])
+console.log(message[10])
 
 // To return the string/character in upper case
 console.log(message.toUpperCase())
