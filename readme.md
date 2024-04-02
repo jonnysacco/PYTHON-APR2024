@@ -23,7 +23,9 @@
         <td>W1D2 </td>
         <td>2</td>
         <td>OOP</td>
-        <td>class, attributes, methods, class methods, association 
+        <td><a href="/02-oop/oop1-class">class, attributes methods </a><br>
+         <a href="./02-oop/oop2-classmethod/computer.py">class methods </a> <br>
+         <a href="./02-oop/oop3-association/computer.py">association </a>
         </td>
         <td> </td>
     <tr>
