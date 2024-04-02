@@ -28,4 +28,49 @@ const expected4 = "GIT";
  * @param {string} wordsStr A string to be turned into an acronym.
  * @returns {string} The acronym.
  */
-function acronymize(str) {}
+function acronymize(str){}
+
+
+function acronymize3(str) {
+  let acro = '';
+  let split = str.split(" ");
+  for (let i = 0; i < split.length; i++) {
+      let word = split[i];
+      if (word.length > 0) {
+          acro += word[0].toUpperCase();
+      }
+  }
+  return acro;
+}
+
+function acronymize1(str) {
+  let returnStr = "";
+  let arr = str.trim().split(" ");
+  for(var i=0;i<arr.length;i++){
+      if(arr[i] != ""){
+          returnStr += arr[i][0];
+      }
+  }
+  return returnStr.toUpperCase()
+}
+
+function acronymize2(str) {
+  let trimStr = str.trim();
+  let splitStr = trimStr.split(" ");
+  console.log(splitStr)
+  let acronym = "";
+  for( let i=0; i < splitStr.length; i++){
+      if( splitStr[i] === ""){
+          continue
+      }
+      else{
+          acronym += splitStr[i][0]
+      }
+  };
+  acronym = acronym.toUpperCase();
+  return acronym;
+
+}
+
+
+

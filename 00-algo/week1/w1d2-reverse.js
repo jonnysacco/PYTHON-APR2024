@@ -25,3 +25,19 @@ const expected4 = "";
  * @returns {string} The given str reversed.
  */
 function reverseString(str) {}
+
+
+
+function reverseString1(str) { 
+  return str.split('').reverse().join('');
+}
+
+
+function reverseStringAlt(str) {
+  let newString = '';
+  for (let i = str.length-1; i >= 0; i--) {
+      newString += str[i];
+  }
+  return newString; 
+}
+
