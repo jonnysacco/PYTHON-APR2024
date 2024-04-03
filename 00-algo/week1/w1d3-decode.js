@@ -18,3 +18,26 @@ const expected2 = "aaabbccccccccccccdddddddddd";
  * @returns {string} The given str decoded / expanded.
  */
 function decodeStr(str) {}
+
+
+function decodeStr(str) {
+  let tempNum = "";
+  let current = "";
+  let result = "";
+  for (let i = 0; i < str.length; i++) {
+      if (isNaN(str[i])) { // if it is a letter
+          if (tempNum) {
+              result += current.repeat(+tempNum);
+              tempNum = "";
+          }
+          current = str[i];
+      }
+      else { // if it is a number
+          tempNum += str[i];
+      }
+  }
+  if (tempNum) {
+      result += current.repeat(+tempNum);
+  }
+  return result;
+}

@@ -9,7 +9,7 @@ class Product:
         self.seller = None # seller is a User object
         
     @classmethod
-    def get_all(cls):
+    def get_all(cls): # return a list of product based on the results1
         results = query_response.results1
         # results is the list of products (without seller info)
         # YOUR CODE HERE       

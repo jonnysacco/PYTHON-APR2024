@@ -37,3 +37,28 @@
    * @returns {string} The given string encoded.
    */
   function encodeStr(str) {}
+
+
+
+
+function encodeStr(str) {
+
+    counter = 1
+    holderString = ""
+    for(var i = 0; i < str.length; i++){
+        holderString += str[i]
+        while(str[i] === str[i+1]){
+            counter ++
+            i++
+        }
+        holderString += String(counter)
+        counter = 1
+    }
+    if (str.length <= holderString.length){
+        return str
+    }
+    else {
+        str = holderString
+        return str
+    }
+}
