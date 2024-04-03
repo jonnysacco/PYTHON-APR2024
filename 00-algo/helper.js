@@ -13,3 +13,8 @@ console.log(message.trim())
 sentence = "Morning Ninjas! Welcome to the class"
 wordList = sentence.split(" ")
 console.log(wordList)
+
+str = "1hello"
+// isNaN(var) --> is Not a number
+console.log(isNaN(str[0])) // str[0]: 1 :  is a number
+console.log(isNaN(str[1])) // str[1]: h : is Not a number

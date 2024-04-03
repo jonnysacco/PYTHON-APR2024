@@ -23,6 +23,9 @@
   
   const str4 = "bbcc";
   const expected4 = "bbcc";
+
+  const str5 = "bbccddd";
+  const expected5 = "b2c2d3";
   
   /**
    * Encodes the given string such that duplicate characters appear once followed
