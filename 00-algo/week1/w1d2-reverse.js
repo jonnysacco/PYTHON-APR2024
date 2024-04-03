@@ -24,14 +24,6 @@ const expected4 = "";
  * @param {string} str String to be reversed.
  * @returns {string} The given str reversed.
  */
-function reverseString(str) {}
-
-
-
-function reverseString1(str) { 
-  return str.split('').reverse().join('');
-}
-
 
 function reverseStringAlt(str) {
   let newString = '';
@@ -40,4 +32,3 @@ function reverseStringAlt(str) {
   }
   return newString; 
 }
-

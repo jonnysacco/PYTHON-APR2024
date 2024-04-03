@@ -62,3 +62,43 @@ function encodeStr(str) {
         return str
     }
 }
+
+function encodeStr2(str) {
+    if (str.length <= 1) {
+        return str;
+    }
+
+    let repeat = 1;
+    let current = str[0];
+    let result = "";
+    
+    for (let i = 1; i < str.length; i++) {
+        if (str[i] === current) {
+            repeat++;
+        } 
+        else {
+            if (repeat > 1) {
+                result += current + repeat;
+            } 
+            else {
+                result += current;
+            }
+            current = str[i];
+            repeat = 1;
+        }
+    }
+
+    if (repeat > 1) {
+        result += current + repeat;
+    } 
+    else {
+        result += current;
+    }
+
+    if (result.length < str.length) {
+        return result;
+    } 
+    else {
+        return str;
+    }
+}

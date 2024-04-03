@@ -101,3 +101,12 @@
     </tr>
     </tbody>
 </table>
+
+
+## Terminal command cheatsheet
+| cmd | Mac/linux/git bash    | Functions |
+|----------------- | -----------------| --------------|
+| cd folder_name | cd folder_name | change directory to the folder | 
+| cd .. | cd .. | go one level up of the directory |  
+| cd [drag the folder in] | cd [drag the folder in] | change directory to the folder you dragged in|
+| ls | ls | show all the files in the current directory |

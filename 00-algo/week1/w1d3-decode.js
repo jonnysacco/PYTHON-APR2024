@@ -3,6 +3,7 @@
 */
 
 const str1 = "a3b2c1d3";
+            
 const expected1 = "aaabbcddd";
 
 const str2 = "a3b2c12d10";
@@ -20,7 +21,35 @@ const expected2 = "aaabbccccccccccccdddddddddd";
 function decodeStr(str) {}
 
 
-function decodeStr(str) {
+
+function decodeStr1(str) {
+    let tempNum = "";
+    let current = "";
+    let result = "";
+    for (let i = 0; i < str.length; i++) {
+        if (isNaN(str[i])) { // if it is a letter
+            if (tempNum) {
+                tempNum = parseInt(tempNum) // Change it to a number
+                while(tempNum > 0){
+                    result += current
+                    tempNum--
+                }
+                tempNum = "";
+            }
+            current = str[i];
+        }
+        else { // if it is a number
+            tempNum += str[i];
+        }
+    }
+    if (tempNum) {
+        result += current.repeat(+tempNum);
+    }
+    return result;
+  }
+
+
+function decodeStr2(str) {
   let tempNum = "";
   let current = "";
   let result = "";
