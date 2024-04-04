@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello Flask</h1>
+    <a href="/textgame/teal"> Cool color</a> |
+    <a href="/textgame/skyblue"> Sky color</a>|
+    <a href="/textgame/forestgreen"> Forest color</a>
+
+    <p>{{message }}</p>
+    <h1> for-loop </h1>
+    <ul>
+    {% for i in range(count): %}
+        <li>{{ i }} </li>
+    {% endfor %}
+    </ul>
+    <h1> If-condition </h1>
+    {% if count > 3 %}
+    <p> {{count}} is larger than 3</p>
+    {% else %}
+    <p> {{count}} is smaller than 3</p>
+    {% endif %}
+    {#
+        comments   
+    #}
+    
+</body>
+</html>
