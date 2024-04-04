@@ -103,10 +103,17 @@
 </table>
 
 
-## Terminal command cheatsheet
-| cmd | Mac/linux/git bash    | Functions |
-|----------------- | -----------------| --------------|
-| cd folder_name | cd folder_name | change directory to the folder | 
-| cd .. | cd .. | go one level up of the directory |  
-| cd [drag the folder in] | cd [drag the folder in] | change directory to the folder you dragged in|
-| ls | ls | show all the files in the current directory |
+
+## keyboard shortcut and useful terminal command
+|                             | Windows           | Mac          |
+|-----------------------------| ------------------|-------------|
+|Stop the server from running | ```Ctrl + C```    | ```Control + C``` |
+|Exit the virtual env | ```exit```    | ```exit``` |
+|Show the list of files in that directory       | ```ls```         | ```ls``` |
+|Direct into the folder       | ```cd folder_name```| ```cd folder_name``` |
+|Direct one folder up         | ``` cd .. ``` | ``` cd .. ``` | 
+|Current folder               | ```pwd```|  ```pwd``` |
+|Create a file                | ``` type nul > server.py ``` | ```touch server.py ``` |
+|Create a folder              | ``` mkdir folder_name ``` | ```mkdir folder_name``` |
+|Remove a directory and contents |  ```rm -r folder_name``` | ```rm -r folder_name``` |
+
