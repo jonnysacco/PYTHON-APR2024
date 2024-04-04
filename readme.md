@@ -32,13 +32,23 @@
         <td>W1D3 </td>
         <td></td>
         <td> More OOP concepts</td>
-        <td> OOP 4 Pillars, Modules, import</td>
+        <td><a href="./02-oop/oop4-modules/">Modules </a><br>
+         <a href="./02-oop/oop5-dict-oop/">Dictionary with OOP </a> <br>
+         <a href="./02-oop/oop6-inheritance/">Inheritance </a>
+        </td>
         <td> </td>
     </tr>
         <tr>
         <td>W1D4 </td>
         <td>3</td>
         <td>Flask (Controller & View)</td>
+        <td>
+         <a href="./03-flask/">Notes </a> <br>
+        <a href="./03-flask/flask1-routing/">Flask Routing</a><br>
+         <a href="">Rendering templates </a>
+        </td>
+
+
         <td> Flask, Routing, Templates, Jinja, Static files</td>
         <td></td>
     </tr>
