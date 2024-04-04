@@ -47,9 +47,6 @@
         <a href="./03-flask/flask1-routing/">Flask Routing</a><br>
          <a href="">Rendering templates </a>
         </td>
-
-
-        <td> Flask, Routing, Templates, Jinja, Static files</td>
         <td></td>
     </tr>
     <tr>
