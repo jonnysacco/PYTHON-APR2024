@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Adding a new bug!</h1>
+    <form action="/bugs/new/process" method="POST">
+        <p>
+            <label for="title">Title:</label>
+            <input type="text" name="title" />
+        </p>
+        <p> 
+            <label for="assignment">Assignment:</label>
+            <select name="assignment">
+                <option hidden>-- pick the assignment --</option>
+                <option value="Playground"> Playground </option>
+                <option value="HTML-Table">HTML Table</option>
+                <option value="Counter">Counter</option>
+            </select>
+        </p>
+        <p>
+            <label for="description">Description:</label>
+            <textarea name="description"></textarea>
+        </p>
+        <input type="hidden" name="username" value="Pepper" />
+        <button type="submit">Add the bug</button>
+    </form>
+
+
+</body>
+</html>
