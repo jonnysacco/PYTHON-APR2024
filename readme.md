@@ -54,21 +54,25 @@
         <td></td>
         <td>Flask with form</td>
         <td>GET/POST form, Session, Redirect </td>
-        <td></td>
+        <td>
+        <a href="./03-flask/flask3-session-form/readme.md"> Notes on session </a> | 
+        <a href="./03-flask/flask3-session-form"> Code for Form </a> 
+        </td>
     </tr>
     <tr>
         <td>W2D1 </td>
         <td>4</td>
         <td>Intro to Database & MySQL</td>
         <td> ERD & Normalization </td>
-        <td></td>
+        <td><a href="https://docs.google.com/spreadsheets/d/14-jjjmQlQEoGGYnOSTgodPTNACXh5pxaCepGsNWTqos/edit?usp=sharing">Visualization of tables in spreadsheet</a></td>
     </tr>
     <tr>
         <td>W2D2 </td>
         <td></td>
         <td> Queries  </td>
         <td>Queries, Joining tables, Aggregate functions</td>
-        <td>
+        <td><a href="./04-mysql/twitter_sql.md">Notes on SELECT </a> |
+        <a href="./04-mysql/crud_sql.md">Notes on CRUD </a>
         </td>
     </tr>
     <tr>
@@ -123,4 +127,5 @@
 |Create a file                | ``` type nul > server.py ``` | ```touch server.py ``` |
 |Create a folder              | ``` mkdir folder_name ``` | ```mkdir folder_name``` |
 |Remove a directory and contents |  ```rm -r folder_name``` | ```rm -r folder_name``` |
+|Deactive all virtual env |  ```source deactivate OR deactivate``` | ```source deactivate OR deactivate``` |
 
