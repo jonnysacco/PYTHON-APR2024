@@ -1,0 +1,1 @@
+# Refer to platform: Connecting to a Database

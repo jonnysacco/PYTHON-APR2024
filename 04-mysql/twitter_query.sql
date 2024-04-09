@@ -46,6 +46,7 @@ SELECT tweets.id, tweets.tweet, tweets.user_id, users.id, users.handle
 FROM tweets, users
 WHERE users.id = tweets.user_id;
 
+-- Using JOIN makes it more neat and more functionality in LEFT JOIN/RIGHT JOIN/JOIN 
 SELECT tweets.id, tweets.tweet, tweets.user_id, users.id, users.handle
 FROM tweets
 LEFT JOIN users ON users.id = tweets.user_id;
