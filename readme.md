@@ -71,8 +71,9 @@
         <td></td>
         <td> Queries  </td>
         <td>Queries, Joining tables, Aggregate functions</td>
-        <td><a href="./04-mysql/twitter_sql.md">Notes on SELECT </a> |
-        <a href="./04-mysql/crud_sql.md">Notes on CRUD </a>
+        <td><a href="./04-mysql/twitter_sql.md">Notes on SELECT </a><br>
+        <a href="./04-mysql/crud_sql.md">Notes on CRUD </a><br>
+        <a href="./04-mysql/twitter_query.sql"> SQL Queries </a>
         </td>
     </tr>
     <tr>
