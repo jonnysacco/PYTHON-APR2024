@@ -1,6 +1,6 @@
 # import the function from mysqlconnection
 # from flask_app.folder_name.file_name import function_name
-
+# from flask_app import DB_NAME
 class Project:
     def __init__(self, data):
         pass # REPLACE PASS WITH YOUR OWN CODE
@@ -11,7 +11,7 @@ class Project:
     def get_all(cls):
         query = "QUERY_TO_EXECUTE" # 1. Write the SELECT query to execute
         # 2. Call the query by executing the function from import
-        results = connect_to_sql("YOUR_OWN_SCHEMA").query_db(query)
+        results = connect_to_sql(DB_NAME).query_db(query)
 
         """
             results for get_all query will return a list of dictionary [ { }, { }, { }]
