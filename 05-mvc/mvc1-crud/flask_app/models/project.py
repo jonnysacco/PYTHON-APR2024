@@ -1,7 +1,7 @@
 # import the function from mysqlconnection
 # from flask_app.folder_name.file_name import function_name
 
-class User:
+class Project:
     def __init__(self, data):
         pass # REPLACE PASS WITH YOUR OWN CODE
         # Make sure you match all the class attributes with database columns
