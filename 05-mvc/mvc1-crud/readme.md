@@ -36,7 +36,7 @@
         app.run(debug=True, port=5001)
     ```
     
-3. Within configs folder, add [mysqlconnection.py](./flask_app/config/mysqlconnection.py)
+3. Within configs folder, add mysqlconnection.py
    - Refer to the platform (Connecting to Database)
 
 4. Within models folder, create the projects.py like what we have learnt in OOP
