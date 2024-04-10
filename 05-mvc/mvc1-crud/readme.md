@@ -6,8 +6,8 @@
    - pipenv shell
    - Create server.py (Leave it empty for now)
 2. Create a folder : flask_app  ``` mkdir flask_app ```
-    - Within flask_app, create __init__.py 
-    #### __init___.py
+    - Within flask_app, create "__init__.py" 
+    ####  __ init __.py
     ```py
     from flask import Flask
     app = Flask(__name__)
