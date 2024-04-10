@@ -15,9 +15,9 @@
    - Create a folder : flask_app  ``` mkdir flask_app ```
    - Within flask_app, create "__ init __.py" 
    - Within flask_app, create folders /configs, /controllers, /models, /static, /templates
-    ``` cd flask_app ``` and ``` mkdir configs controllers models static templates ```
-    - add models/project.py, controllers/projects.py, configs/mysqlconnection.py
-    - add all the corresponding html template files (According to the wireframe)
+   - ``` cd flask_app ``` and ``` mkdir configs controllers models static templates ```
+   - add models/project.py, controllers/projects.py, configs/mysqlconnection.py
+   - add all the corresponding html template files (According to the wireframe)
 
     ####  __ init __.py
     ```py
