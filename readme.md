@@ -81,7 +81,7 @@
         <td>5</td>
         <td>MVC (Flask with Database)</td>
         <td></td>
-        <td> </td>
+        <td><a href="/05-mvc/mvc1-crud/">Notes</a> </td>
     </tr>
     <tr>
         <td> W2D4 </td>
