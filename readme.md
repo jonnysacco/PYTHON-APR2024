@@ -88,7 +88,7 @@
         <td></td>
         <td>MVC with relationships</td>
         <td></td>
-        <td></td>
+        <td><a href="/05-mvc/one_many.md">Notes</a></td>
     </tr>
     <tr>
         <td> W2D5 </td>
