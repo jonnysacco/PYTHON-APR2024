@@ -58,7 +58,7 @@ Constructor: added ```self.sprints = []```
 
 ### Templates & Controllers
 project from model (get_one_with_sprints)
-```json
+```js
     project = {
         "id" : 1,
         "idea" : "Bug Tracker",
