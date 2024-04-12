@@ -95,7 +95,7 @@
         <td>6</td>
         <td>Validation & Log-reg</td>
         <td></td>
-        <td></td>
+        <td><a href="./06-belt-review/validation.md">Validation code snippets</a></td>
     </tr>
     <tr>
         <td> W3D1 </td>
