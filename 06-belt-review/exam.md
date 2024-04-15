@@ -52,17 +52,18 @@
    - [ ] Successful update
    - [ ] (Optional) Validation
    - [ ] (Optional) Make sure logged_user is the owner user
-4. Delete
+5. Delete
    - [ ] Delete should work (either link / post form)
    - [ ] (Optional) Make sure logged_user is the owner user
-5. Misc
+6. Misc
    - [ ] Route protection on all routes
    - [ ] Welcome, Pepper on dashboard
    - [ ] 1:n is in ERD
    - [ ] Join table in queries
    - [ ] Class association is in dashboard & details
+   - [ ] Conditional rendering on edit/delete link
 
-### Requirements & Details
+## Requirements & Details
 1. completed & submitted 90% of core assignments (14/15)
 2. Finished at least 1 code review (Cannot be on the same day)
 3. Offical exam day: Week 3 Day 3. (No algo on that day)
@@ -99,7 +100,8 @@
 ### To pass the exam
 1. Full CRUD (Create, Read, Update, Delete)
 2. One-to-many relationship with class association
-3. Login & Registration
+3. Include route protection , Welcome Pepper & conditional rendering
+4. Login & Registration
     ##### Red Belt: Uploading the complete project within 5 hours. 
 
 
