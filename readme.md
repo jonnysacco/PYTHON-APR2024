@@ -102,7 +102,9 @@
         <td></td>
         <td></td>
         <td> </td>
-        <td> </td>
+        <td><a href="./06-belt-review/belt_review.md">Belt Review code snippets</a><br>
+        <a href="./06-belt-review/exam.md">Exam checklist</a>
+        </td>
     </tr>
     <tr>
         <td> </td>

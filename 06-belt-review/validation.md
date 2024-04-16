@@ -1,5 +1,11 @@
 # Validation
 
+## Controller
+```py
+    if not Item.validate_item(request.form):
+        return redirect("/items")
+```
+
 ## models/sprint.py
 
 ```py
@@ -44,3 +50,4 @@
     # Allow only letter/number/space
     NO_SPECIAL_CHARACTER_REGEX = re.compile(r'^[a-zA-Z0-9 ]*$')  
 ```
+
