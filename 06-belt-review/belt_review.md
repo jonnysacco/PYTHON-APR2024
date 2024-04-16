@@ -86,8 +86,8 @@ Edit & Delete only shows up if the logged user_id is the same as the owner_id
 ### models
 - Constructor need to include all the table field attribute
 - Both User class & the other class include class association
+#### CRUD class (Like Item class, with many to one)
   ```py
-  # CRUD class (like Item class)
   def __init__(self, data):
         # SAME FIELDS FROM DB TABLE
         self.id = data["id"]
@@ -101,6 +101,12 @@ Edit & Delete only shows up if the logged user_id is the same as the owner_id
         self.owner = None 
         ####################################
   ```
+#### User class (with one to many)
+```py
+    # Inside the constructor - To ensure data integrity   
+    self.donated_items = [] 
+    ####################################
+```
 
 ### SQL (To be used later in models @classmethod)
 - Dashboard & Details need LEFT JOIN (These queries will be in model get_all & get_one)
