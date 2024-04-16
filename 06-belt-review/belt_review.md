@@ -4,15 +4,18 @@
 - [1. log /reg session](#1-login--register-session)
 - [2. Route protection & Welcome message](#2-route-protection--welcome-message)
 - [3. Preventing non-owning users from editing/deleting](#3-preventing-non-owning-users-from-editingdeleting)
+
 [CRUD setup](#1n-class-association)
 - [1. Models & erd](#erd)
 - [2. SQL examples](#sql-to-be-used-later-in-models-classmethod)
+
 [CRUD Logic](#3-crud-logic)
 - [1. Create](#create)
 - [2. Dashboard](#dashboard)
 - [3. Details](#details)
 - [4. Edit](#edit)
 - [5. Delete](#delete)
+
 [Testing & Checklist](exam.md)
 
 
