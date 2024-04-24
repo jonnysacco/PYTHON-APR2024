@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="retro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='dist/css/output.css')}}">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container prose m-4">
+        <h1>Add a new project idea</h1>
+        <a href="/sprints/new">Add a new sprint</a>
+        <form action="/projects/new/process" method="POST">
+            <div>
+                <label> Idea</label>
+                <input type="text" placeholder="Type here" class="input input-bordered input-primary w-full max-w-xs" name="idea" />
+            </div>
+            <div>
+                <label>Description </label>
+                <textarea name="description" class="textarea textarea-bordered h-24"
+                    placeholder="Enter here"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-success">Add!</button>
+
+        </form>
+
+
+        <h1> Project Sprint board</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th> Project Idea</th>
+                    <th> Created on</th>
+                    <th> Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for each_project in project_list: %}
+                <tr>
+                    <td> {{each_project.idea}}</td>
+                    <td> {{each_project.created_at.strftime("%B %d, %Y")}}</td>
+                    <td> <a href="/projects/{{each_project.id}}">Show details</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
